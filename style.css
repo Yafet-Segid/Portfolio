@@ -1,0 +1,191 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.logo {
+  margin-left: 4em;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  isolation: isolate;
+}
+.list {
+  display: inline-block;
+  float: right;
+  margin: 1.5em;
+  font-size: 13px;
+  margin-top: 2em;
+  cursor: pointer;
+}
+
+.headerBar {
+  margin-top: 2em;
+}
+
+.name {
+  margin-top: 8em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.header {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 1em;
+}
+
+.HeaderText {
+  font-size: 17px;
+  text-align: center;
+  margin-left: 12em;
+  margin-right: 12em;
+}
+
+.downloadResume {
+  /* color: black; */
+  margin-top: 2em;
+  border: 1px solid black;
+  border-radius: 30px;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 45%;
+  padding: 0.5em 2em;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 10em;
+}
+
+#secondPage {
+  height: 105vh;
+  bottom: 2em;
+}
+
+.skills {
+  text-align: center;
+  margin-top: 8em;
+  margin-bottom: 3em;
+  padding-top: 2em;
+  color: gray;
+}
+
+.imageDiv {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 1em;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.img {
+  width: 6em;
+  border: 1px solid transparent;
+  padding: 10%;
+  border-radius: 30em;
+  background-color: white;
+  box-shadow: 9px 9px 16px rgb(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+}
+#ProjectText {
+  font-size: 30px;
+  padding-top: 2em;
+  text-align: center;
+  font-weight: bold;
+  color: gray;
+}
+
+.projectFrame {
+  isolation: isolate;
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+  margin-top: 5em;
+  margin-bottom: 9em;
+}
+
+.projectDiv {
+  isolation: isolate;
+  border: 1px solid transparent;
+  margin: 1em;
+  /* display: inline-block; */
+  box-shadow: 9px 9px 16px rgb(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+
+.projectDiv:hover {
+  transform: scale(1.1);
+}
+
+.video {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.projectText {
+  font-size: 18px;
+  margin: 1em;
+}
+
+.btnGitHub {
+  margin-left: 23%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.btn {
+  font-size: 1em;
+  padding: 5px;
+  border-radius: 50px;
+  border: 1px solid gray;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+#contactHeader {
+  text-align: center;
+  margin-bottom: 2em;
+  font-size: 5em;
+}
+.contactFrame {
+  text-align: center;
+}
+.icon {
+  border: 1px solid black;
+  border-radius: 100%;
+  margin: 20px;
+  color: gray;
+}
+.emailIcon {
+  font-size: 4em;
+  padding: 30px 35px;
+}
+.phoneIcon {
+  font-size: 5em;
+  padding: 20px 40px;
+}
+
+.githubIcon {
+  font-size: 5em;
+  padding: 20px 25px;
+}
+.linkedinIcoin {
+  font-size: 5em;
+  padding: 20px 30px;
+  margin-bottom: 3em;
+}
+.dark_mode {
+  background-color: black;
+  color: white;
+}
+
+.imgToggle {
+  width: 6em;
+  border: 1px solid transparent;
+  padding: 10%;
+  border-radius: 30em;
+  /* background-color: white; */
+  box-shadow: 9px 9px 16px rgba(28, 119, 255, 0.6),
+    -9px -9px 16px rgba(252, 62, 62, 0.5);
+}
