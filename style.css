@@ -17,12 +17,18 @@ html {
   float: right;
   margin: 1.5em;
   font-size: 13px;
-  margin-top: 2em;
+  margin-top: 4em;
   cursor: pointer;
+}
+.darkModeIcon {
+  font-size: 2em;
+  float: right;
+  margin-right: 1em;
 }
 
 .headerBar {
   margin-top: 2em;
+  list-style-type: none;
 }
 
 .name {
@@ -30,6 +36,12 @@ html {
   text-align: center;
   margin-bottom: 1em;
 }
+.name p {
+  display: inline-block;
+  font-size: 1.3em;
+  margin-left: 0.3em;
+}
+
 .header {
   text-align: center;
   font-size: 35px;
@@ -147,10 +159,11 @@ html {
   text-align: center;
   margin-bottom: 2em;
   font-size: 5em;
+  color: rgb(110, 110, 110);
 }
 .contactFrame {
   text-align: center;
-  margin-bottom: 10em;
+  margin-bottom: 13em;
 }
 
 .contactLogo {
@@ -158,9 +171,9 @@ html {
   cursor: pointer;
 }
 
-span {
-  display: inline-block;
-}
+/* span {
+  display: inline;
+} */
 .icon {
   border: 1px solid black;
   border-radius: 100%;
@@ -183,10 +196,59 @@ span {
 .linkedinIcoin {
   font-size: 5em;
   padding: 20px 30px;
+  display: inline;
 }
 .dark_mode {
   background-color: black;
   color: white;
+}
+.wave {
+  animation-name: animation-wave;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+}
+
+@keyframes animation-wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(20deg);
+  }
+  20% {
+    transform: rotate(-9deg);
+  }
+  30% {
+    transform: rotate(27deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(19deg);
+  }
+  60% {
+    transform: rotate(-4deg);
+  }
+  70% {
+    transform: rotate(18deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  90% {
+    transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(-7deg);
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .HeaderText {
+    font-size: 14px;
+  }
 }
 /* 
 .imgToggle {
