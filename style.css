@@ -30,6 +30,48 @@ html {
   text-align: center;
   margin-bottom: 1em;
 }
+.wave {
+  animation-name: animation-wave;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+}
+@keyframes animation-wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(20deg);
+  }
+  20% {
+    transform: rotate(-9deg);
+  }
+  30% {
+    transform: rotate(27deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(19deg);
+  }
+  60% {
+    transform: rotate(-4deg);
+  }
+  70% {
+    transform: rotate(18deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  90% {
+    transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(-7deg);
+  }
+}
+
 .header {
   text-align: center;
   font-size: 35px;
@@ -44,7 +86,7 @@ html {
 }
 
 .downloadResume {
-  /* color: black; */
+  color: black;
   margin-top: 2em;
   border: 1px solid black;
   border-radius: 30px;
@@ -56,25 +98,30 @@ html {
   text-decoration: none;
   margin-bottom: 10em;
 }
-
+.downloadResume:hover {
+  background-color: gray;
+  color: white;
+  border: t ransparent;
+}
 #secondPage {
-  height: 105vh;
+  height: 90vh;
   bottom: 2em;
 }
 
 .skills {
   text-align: center;
-  margin-top: 8em;
+  /* margin-top: 10em; */
   margin-bottom: 3em;
-  padding-top: 2em;
+  padding-top: 1em;
   color: gray;
+  font-size: 3em;
 }
 
 .imageDiv {
   display: grid;
   grid-template-columns: 33% 33% 33%;
   gap: 1em;
-  margin-left: 18%;
+  margin-left: 22%;
   margin-right: 18%;
 }
 
@@ -146,10 +193,14 @@ html {
 #contactHeader {
   text-align: center;
   margin-bottom: 2em;
-  font-size: 5em;
+  font-size: 4.5em;
+  color: gray;
 }
 .contactFrame {
   text-align: center;
+}
+.contactFrame li {
+  display: inline;
 }
 .icon {
   border: 1px solid black;
@@ -157,6 +208,7 @@ html {
   margin: 20px;
   color: gray;
 }
+
 .emailIcon {
   font-size: 4em;
   padding: 30px 35px;
@@ -175,17 +227,25 @@ html {
   padding: 20px 30px;
   margin-bottom: 3em;
 }
-.dark_mode {
+.icon:hover {
+  transform: scale(1.2);
+}
+/* .dark_mode {
   background-color: black;
   color: white;
-}
+} */
 
-.imgToggle {
+/* .imgToggle {
   width: 6em;
   border: 1px solid transparent;
   padding: 10%;
   border-radius: 30em;
-  /* background-color: white; */
+   background-color: white; 
   box-shadow: 9px 9px 16px rgba(28, 119, 255, 0.6),
     -9px -9px 16px rgba(252, 62, 62, 0.5);
+} */
+.fotterText {
+  margin-top: 7em;
+  margin-bottom: 1em;
+  text-align: center;
 }
