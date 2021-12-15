@@ -57,21 +57,6 @@ html {
   margin-bottom: 10em;
 }
 
-.popResume .content {
-  transform: translate(-50%, -50%) scale(0);
-}
-.popResume .overlay {
-  display: none;
-}
-.popResume-active .overlay {
-  display: block;
-}
-
-.popResume-active .content {
-  transform: all 300ms ease-in-out;
-  transform: translate(-50%, -50%) scale(1);
-}
-
 #secondPage {
   height: 105vh;
   bottom: 2em;
