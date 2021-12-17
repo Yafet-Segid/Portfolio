@@ -19,8 +19,9 @@ html {
   font-size: 13px;
   margin-top: 2em;
   cursor: pointer;
+  color: blue;
+  text-decoration: none;
 }
-
 .headerBar {
   margin-top: 2em;
 }
@@ -165,10 +166,6 @@ html {
   border-radius: 20px;
 }
 
-/* .projectDiv:hover {
-  transform: scale(1.1);
-} */
-
 .video {
   width: 100%;
   border-radius: 20px;
@@ -186,17 +183,13 @@ html {
 }
 .btn {
   font-size: 1em;
-  padding: 5px;
-  margin: 5px;
+  padding: 6px;
   border-radius: 50px;
   border: 1px solid transparent;
 }
 
 .btn:hover {
   transform: scale(1.1);
-  /* background-color: gray;
-  color: white;
-  border: transparent; */
 }
 #contactHeader {
   text-align: center;
@@ -261,32 +254,50 @@ html {
   margin-bottom: 1em;
   text-align: center;
 }
-
-.list {
-  display: block;
-}
-
-#dropdown {
-  display: none;
-}
-
-@media (max-width: 700px) {
-  .list {
-    display: none;
-    /* display: inline;
-    float: right;
-    margin: 1.5em;
-    font-size: 13px;
-    margin-top: 2em; */
+@media screen and (max-width: 720px) {
+  .HeaderText {
   }
-  .list2 {
-    display: block;
-    margin: 1.5em;
-    font-size: 13px;
-    margin-top: 2em;
+  .imageDiv {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 2em;
+  }
+  .projectFrame {
+    display: inline;
+    /* margin-bottom: 2em; */
+    margin-bottom: 1em;
   }
 
-  #dropdown {
-    display: block;
+  .projectDiv {
+    margin: 2em 3em 3em 3em;
+  }
+  #secondPage {
+    height: 100vh;
+  }
+
+  .skills {
+    padding-top: 1em;
+    font-size: 35px;
+  }
+  #contactHeader {
+    font-size: 45px;
+  }
+  .logo {
+    margin-left: 20px;
+    /* display: inline-block; */
+  }
+  .headerBar {
+    /* display: inline-block; */
+  }
+  .footerText {
+    text-align: center;
+  }
+  .HeaderText {
+    font-size: 17px;
+    margin-right: 3em;
+    margin-left: 4em;
+  }
+  .downloadResume {
+    margin-left: 35%;
   }
 }
