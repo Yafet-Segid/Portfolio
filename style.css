@@ -278,9 +278,9 @@ html {
   .projectDiv {
     margin: 2em 3em 3em 3em;
   }
-  /* #secondPage {
-    height: 78vh;
-  } */
+  #secondPage {
+    height: 45em;
+  }
 
   .skills {
     padding-top: 2em;
