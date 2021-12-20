@@ -2,6 +2,7 @@
   padding: 0px;
   margin: 0px;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -107,7 +108,7 @@ html {
 .downloadResume:hover {
   background-color: gray;
   color: white;
-  border: t ransparent;
+  border: 1px solid transparent;
 }
 #secondPage {
   height: 90vh;
@@ -118,7 +119,7 @@ html {
   text-align: center;
   margin-bottom: 2em;
   padding-top: 3em;
-  color: gray;
+  color: black;
   font-size: 3em;
 }
 
@@ -144,7 +145,7 @@ html {
   padding-top: 2em;
   text-align: center;
   font-weight: bold;
-  color: gray;
+  color: black;
   margin-bottom: 3em;
 }
 
@@ -187,11 +188,14 @@ html {
 
 }
 .btn a {
-  text-decoration:none
+  text-decoration:none;
+  color: black;
+
 }
 
 .btnDiv{
   text-align:center;
+  
 }
 
 .btn:hover {
@@ -201,7 +205,7 @@ html {
   text-align: center;
   margin-bottom: 2em;
   font-size: 4.5em;
-  color: gray;
+  color: black;
 }
 .contactFrame {
   text-align: center;
