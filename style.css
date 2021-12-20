@@ -268,7 +268,7 @@ html {
   .imageDiv {
     display: grid;
     grid-template-columns: 45% 45%;
-    gap: 2em;
+    gap: 1em;
   }
   .projectFrame {
     display: inline;
@@ -278,9 +278,9 @@ html {
   .projectDiv {
     margin: 2em 3em 3em 3em;
   }
-  #secondPage {
+  /* #secondPage {
     height: 78vh;
-  }
+  } */
 
   .skills {
     padding-top: 2em;
