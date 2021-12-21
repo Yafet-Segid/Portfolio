@@ -3,4 +3,19 @@ function myFun() {
   darkMode.classList.toggle("dark_mode");
 }
 
-// comment
+
+let myVideo = document.querySelectorAll(".video");
+
+for (let i = 0; i < myVideo.length; i++) {
+ myVideo[i].addEventListener("mouseover", function () {
+   this.play();
+   
+   
+ })
+ myVideo[i].addEventListener("mouseleave", function () {
+  this.pause();
+  this.currentTime = 0;
+  
+})
+  
+}
