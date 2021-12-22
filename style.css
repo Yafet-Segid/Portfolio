@@ -164,7 +164,6 @@ html {
 }
 
 .video {
-  width: 100%;
   border-radius: 20px;
   box-shadow: 9px 9px 16px rgba(235, 235, 235, 0.6);
 }
@@ -263,7 +262,7 @@ html {
   .imageDiv {
     display: grid;
     grid-template-columns: 40% 40%;
-    gap: 2em;
+    gap: 3em;
   }
   .projectFrame {
     display: inline;
