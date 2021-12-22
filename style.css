@@ -23,9 +23,6 @@ html {
   color: blue;
   text-decoration: none;
 }
-.headerBar {
-  margin-top: 2em;
-}
 
 .name {
   margin-top: 8em;
@@ -110,6 +107,13 @@ html {
   color: white;
   border: 1px solid transparent;
 }
+.recentWorkHeader {
+  margin-top: 2em;
+  margin-bottom: 3em;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
 #secondPage {
   height: 90vh;
   bottom: 2em;
@@ -140,13 +144,11 @@ html {
   box-shadow: 9px 9px 16px rgb(163, 177, 198, 0.6),
     -9px -9px 16px rgba(255, 255, 255, 0.5);
 }
-#ProjectText {
-  font-size: 30px;
+.projectText {
   padding-top: 2em;
   text-align: center;
-  font-weight: bold;
   color: black;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 
 .projectFrame {
