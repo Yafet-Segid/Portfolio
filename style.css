@@ -153,13 +153,11 @@ html {
   display: grid;
   grid-template-columns: 30% 30% 30%;
   gap: 2em;
-  /* margin-right: 1em; */
   margin-left: 2em;
 }
 
 .projectDiv {
   border: 1px solid transparent;
-  /* margin: 1em; */
   box-shadow: 9px 9px 16px rgb(163, 177, 198, 0.6),
     -9px -9px 16px rgba(190, 190, 190, 0.5);
   border-radius: 20px;

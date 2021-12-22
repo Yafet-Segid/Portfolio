@@ -3,19 +3,29 @@ function myFun() {
   darkMode.classList.toggle("dark_mode");
 }
 
+let twitterHover = document.querySelector(".twitterHover");
 
-let myVideo = document.querySelectorAll(".video");
+twitterHover.addEventListener("mouseover", function () {
+  twitterHover.src = "image/twitter.gif";
+});
+twitterHover.addEventListener("mouseleave", function () {
+  twitterHover.src = "image/twitter.png";
+});
 
-for (let i = 0; i < myVideo.length; i++) {
- myVideo[i].addEventListener("mouseover", function () {
-   this.play();
-   
-   
- })
- myVideo[i].addEventListener("mouseleave", function () {
-  this.pause();
-  this.currentTime = 0;
-  
-})
-  
-}
+let todoHover = document.querySelector(".todoHover");
+
+todoHover.addEventListener("mouseover", function () {
+  todoHover.src = "image/todo.gif";
+});
+todoHover.addEventListener("mouseleave", function () {
+  todoHover.src = "image/todo.jpg";
+});
+
+let quoteHover = document.querySelector(".quoteHover");
+
+quoteHover.addEventListener("mouseover", function () {
+  quoteHover.src = "image/Quote.gif";
+});
+quoteHover.addEventListener("mouseleave", function () {
+  quoteHover.src = "image/quote1.png";
+});
