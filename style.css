@@ -7,18 +7,23 @@ html {
   scroll-behavior: smooth;
 }
 .logo {
+  margin-top: 2em;
   margin-left: 4em;
   font-size: 20px;
   font-weight: bold;
   display: inline-block;
   cursor: pointer;
 }
+
+.listHeader {
+  margin-right: 2em;
+}
 .list {
   display: inline-block;
   float: right;
   margin: 1.5em;
   font-size: 13px;
-  margin-top: 2em;
+  /* margin-top: 2em; */
   cursor: pointer;
   color: blue;
   text-decoration: none;
