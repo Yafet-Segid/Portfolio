@@ -121,6 +121,7 @@ html {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
+  background-color: red;
 }
 #secondPage {
   height: 85vh;
