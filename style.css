@@ -137,8 +137,8 @@ html {
 
 .imageDiv {
   display: grid;
-  grid-template-columns: 30% 30% 30%;
-  gap: 4em;
+  grid-template-columns: 25% 25% 25%;
+  gap: 3em;
   margin-left: 22%;
   margin-right: 18%;
 }
