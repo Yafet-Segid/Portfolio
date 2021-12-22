@@ -16,7 +16,8 @@ html {
 }
 
 .listHeader {
-  margin-right: 2em;
+  margin-right: 1em;
+  font-size: 3em;
 }
 .list {
   display: inline-block;
@@ -112,16 +113,18 @@ html {
   color: white;
   border: 1px solid transparent;
 }
-.recentWorkHeader {
-  margin-top: 2em;
+#recentWorkHeader {
+  /* margin-top: 2em; */
+  padding-top: 2.5em;
+  margin-top: 1em;
   margin-bottom: 3em;
   text-align: center;
   font-size: 30px;
   font-weight: bold;
 }
 #secondPage {
-  height: 90vh;
-  bottom: 2em;
+  height: 85vh;
+  margin-bottom: 2em;
 }
 
 .skills {
@@ -129,13 +132,13 @@ html {
   margin-bottom: 2em;
   padding-top: 3em;
   color: black;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .imageDiv {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  gap: 1em;
+  grid-template-columns: 30% 30% 30%;
+  gap: 4em;
   margin-left: 22%;
   margin-right: 18%;
 }
@@ -153,7 +156,7 @@ html {
   padding-top: 2em;
   text-align: center;
   color: black;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .projectFrame {
@@ -200,7 +203,7 @@ html {
 }
 #contactHeader {
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
   font-size: 4.5em;
   color: black;
 }
