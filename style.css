@@ -103,10 +103,10 @@ html {
   font-size: 20px;
   display: inline-block;
   margin-left: 46%;
-  padding: 0.5em 1.4em;
+  padding: 0.5em 1em 0.5em 1.4em;
   cursor: pointer;
   text-decoration: none;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
 }
 
 .downloadResume:hover {
@@ -279,6 +279,7 @@ html {
     grid-template-columns: 40% 40%;
     gap: 3em;
     margin-right: 3em;
+    margin-top: 1em;
   }
 
   .projectFrame {
@@ -294,7 +295,7 @@ html {
   }
 
   .skills {
-    padding-top: 2em;
+    padding-top: 1em;
     font-size: 35px;
   }
   #contactHeader {
@@ -302,7 +303,7 @@ html {
     padding-top: 1em;
   }
   .contactFrame {
-    margin-top: 1em;
+    /* margin-top: 1em; */
   }
 
   .logo {
