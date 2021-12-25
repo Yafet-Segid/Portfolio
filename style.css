@@ -264,7 +264,6 @@ html {
 
 .footerText {
   margin-top: 8em;
-  margin-bottom: 1em;
   text-align: center;
 }
 
@@ -292,6 +291,7 @@ html {
   }
   #secondPage {
     height: 40em;
+    margin-bottom: 2em;
   }
 
   .skills {
@@ -304,7 +304,7 @@ html {
     margin-bottom: 1em;
   }
   .contactFrame {
-    /* margin-bottom: 0.1em; */
+    margin-bottom: 1em;
   }
 
   .logo {
